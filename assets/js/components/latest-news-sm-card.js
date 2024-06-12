@@ -101,10 +101,10 @@ const LatestNewCard = (contents) => {
             
             <div class="social-logo flex justify-between w-[92px] absolute top-[43%] right-3 hidden">
 
-              <a href="https://www.facebook.com/yonexbadminton/" class="bg-white w-[25px] h-[25px] flex justify-center items-center rounded-full">
+              <a href="#" class="bg-white w-[25px] h-[25px] flex justify-center items-center rounded-full">
                 <img class="w-[16px] h-[16px]" src="../assets/images/news-img/facebook-app-symbol.png" alt="facebook's logo">
               </a>
-              <a href="https://x.com/yonex_com?lang=en" class="bg-white w-[25px] h-[25px] flex justify-center items-center rounded-full">
+              <a href="#" class="bg-white w-[25px] h-[25px] flex justify-center items-center rounded-full">
                 <img class="w-[16px] h-[16px]" src="../assets/images/news-img/twitter.png" alt="twitter's logo">
               </a>
               <a href="#" class="bg-white w-[25px] h-[25px] flex justify-center items-center rounded-full">

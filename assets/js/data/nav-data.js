@@ -46,7 +46,7 @@ export const GolfObj = [
     {
         img: "/2nd-mission/assets/images/golf-images/thm_club_ezone.webp",
         title: "CLUBS",
-        link: "../public/product-review-golf.html",
+        link: "/2nd-mission/public/product-review-golf.html",
     },
     {
         img: "/2nd-mission/assets/images/golf-images/Mega-Menu-Golf-Shaft_1.webp",
