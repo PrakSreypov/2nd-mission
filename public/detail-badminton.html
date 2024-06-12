@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTROX 88 S GAME</title>
+    <!-- yonex logo -->
+    <link
+      rel="icon"
+      href="../assets/images/icon/yonex.png"
+      type="image/icon type"
+    />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+
+    <!-- CDN tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="box-border font-Oswald m-0 p-0">
+    <!-- Start Navbar -->
+    <my-navbar bg-color="md:bg-white text-black"></my-navbar>
+
+    <!-- Start Sidebar -->
+    <my-sidebar></my-sidebar>
+
+    <!-- Start Hero Banner -->
+    <hero-slider data-source="hero-banner"></hero-slider>
+
+    <!-- Start Hero Banner Responsive -->
+    <div class="md:hidden block">
+      <hero-responsive card-data-source="hero-responsive"></hero-responsive>
+    </div>
+
+    <!-- Start Image Zoom -->
+    <zoom-img zoomImg="../assets/images/productPage/Astrox88.png"></zoom-img>
+    <!-- End Image Zoom -->
+
+    <!-- Background Wrapper in Product Section -->
+    <div
+      class="absolute z-[-1] h-[1100px] bg-800 left-0 top-0 bg-[#f7f8f9] md:w-[70%] w-full"
+    ></div>
+
+    <!-- Start menu Link -->
+    <ul
+      class="hidden sm:w-[50%] sm:px-5 sm:flex sm:my-[23px] sm:text-[12px] sm:gap-4 sm:font-sans pt-[110px]"
+    >
+      <li class="text-[#0A56C2] hover:underline">
+        <a href="./index.html">Home</a>
+      </li>
+      <p>/</p>
+      <li class="text-[#0A56C2] hover:underline">
+        <a href="./product-review.html">Badminton</a>
+      </li>
+      <p>/</p>
+      <li class="text-[#0A56C2] hover:underline">
+        <a href="./product-review.html"> Racquets</a>
+      </li>
+      <p>/</p>
+      <li class="uppercase whitespace-nowrap">Astrox 88 S Game</li>
+    </ul>
+    <!-- End menu Link -->
+
+    <!--Start main content -->
+    <main class="max-w-[625px] md:max-w-[1280px] mx-auto px-5 mt-[110px]">
+      <div class="product-card" id="product-description">
+        <product-details
+          data-source="badminton-info"
+        ></product-details>
+      </div>
+
+      <!-- start sticky nav container  -->
+      <product-sticky-nav
+        prodName="Astrox 88 S Game"
+        menuLinks='[
+            {"href": "#product-description", "link": "Description"},
+            {"href": "#product-technology", "link": "Technology"}
+          ]'
+      ></product-sticky-nav>
+      <!-- end sticky nav container  -->
+
+      <!-- start technology -->
+      <div id="product-technology">
+        <technology-carousel
+          data-source="badminton-techno"
+        ></technology-carousel>
+      </div>
+      <!-- end technology -->
+    </main>
+    <!--End main content -->
+
+    <!-- start modal -->
+   <product-modal></product-modal>
+    <!--end modal  -->
+
+    <!-- overlay for modal-->
+    <div
+      id="overlayModal"
+      class="overlay fixed top-0 left-0 w-full h-full z-[100] hidden"
+    ></div>
+    <my-footer></my-footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/components/bignav-component.js"></script>
+    <script
+      src="../assets/js/components/nav-component.js"
+      type="module"
+    ></script>
+    <script src="../assets/js/components/side-bar-component.js"></script>
+    <script src="../assets/js/components/zoom-img.js"></script>
+    <script
+      type="module"
+      src="../assets/js/components/product-detail.js"
+    ></script>
+    <script src="../assets/js/components/product-sticky-nav.js"></script>
+    <script
+      src="../assets/js/components/technology-carousel.js"
+      type="module"
+    ></script>
+    <script src="../assets/js/components/product-modal.js"></script>
+    <script src="../assets/js/components/footer.js"></script>
+  </body>
+</html>

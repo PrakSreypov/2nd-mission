@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARBON CRUISE AERUS MEN</title>
+
+    <!-- Yonex logo -->
+    <link rel="icon" href="../assets/images/icon/yonex.png" type="image/icon type"/>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+
+  <body class="font-Oswald">
+    <!-- Start Navbar -->
+    <my-navbar bg-color="md:bg-white text-black"></my-navbar>
+
+    <!-- Start Sidebar -->
+    <my-sidebar></my-sidebar>
+
+    <!-- Start Hero Banner -->
+    <hero-slider data-source="hero-banner"></hero-slider>
+
+    <!-- Start Hero Banner Responsive -->
+    <div class="md:hidden block">
+      <hero-responsive card-data-source="hero-responsive"></hero-responsive>
+    </div>
+
+    <!-- Start Image Zoom -->
+    <zoom-img
+      zoomImg="https://www.yonex.com/media/catalog/product/s/h/shra2m_mag_476_2.png?quality=80&fit=bounds&height=819&width=600&canvas=600:819"
+    ></zoom-img>
+    <!-- End Image Zoom -->
+
+    <!-- Background Wrapper in Product Section -->
+    <div class="mb-[100px]">
+      <div
+        class="absolute z-[-1] h-[1100px] bg-800 left-0 top-0 bg-[#f7f8f9] md:w-[70%] w-full"
+      ></div>
+    </div>
+
+    <!-- Start Menu link -->
+    <ul
+      class="hidden sm:w-[50%] sm:px-5 sm:flex sm:my-[23px] sm:text-[12px] sm:gap-4 sm:font-sans pt-[40px]"
+    >
+      <li class="text-primary-100 hover:underline">
+        <a href="index.html">Home</a>
+      </li>
+      <p>/</p>
+      <li class="text-primary-100 hover:underline">
+        <a href="tech-a-project/2nd-mission/public/product-review-allRunning.html">Running</a>
+      </li>
+      <p>/</p>
+      <li class="text-primary-100 hover:underline">
+        <a href="detail-men.html">MEN</a>
+      </li>
+      <p>/</p>
+      <li class="uppercase">SAFERUN 100X MEN</li>
+    </ul>
+    <!-- End Menu link -->
+
+    <!--Start main content -->
+    <main class="max-w-[1280px] mx-auto px-5">
+      <!-- Start Product Detail Container -->
+      <div class="product-card" id="product-description">
+        <product-details data-source="allRunning-info"></product-details>
+      </div>
+
+      <!-- Start Sticky Nav Container -->
+      <product-sticky-nav
+        prodName="CARBON CRUISE AERUS MEN"
+        menuLinks='[
+          {"href": "#product-description", "link": "Description"},
+          {"href": "#product-technology", "link": "Technology"},
+          {"href": "#product-specifications", "link": "Specifications"}
+        ]'
+      ></product-sticky-nav>
+
+      <!-- Start Technology Section -->
+      <div id="product-technology">
+        <technology-carousel data-source="men-techno"></technology-carousel>
+      </div>
+
+      <!-- start specification  -->
+      <div id="product-specifications" class="pt-[200px]">
+        <product-specifications
+          specImg="https://www.yonex.com/media/wysiwyg/PDPs/3dpowercarbon.jpg"
+          specTitle="3D POWER CARBON"
+          specDes="A full-length carbon structure optimized for speed running. </br>
+          Designed with an upward-curved front to enhance a natural feel when stepping forward."
+        >
+        </product-specifications>
+
+        <product-specifications
+          specImg="https://www.yonex.com/media/wysiwyg/PDPs/waveshoelace.jpg"
+          specTitle="WAVE SHOELACE"
+          specDes="An intricate wave-like design that keeps the shoelaces securely fastened."
+        >
+        </product-specifications>
+      </div>
+    <!-- end specification  -->
+    </main>
+    <!--End main content -->
+
+
+
+    <!-- Start Footer -->
+    <my-footer></my-footer>
+    <!-- End Footer  -->
+
+    <!-- Scripts -->
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/components/bignav-component.js"></script>
+    <script
+      src="../assets/js/components/nav-component.js"
+      type="module"
+    ></script>
+    <script src="../assets/js/components/side-bar-component.js"></script>
+    <script src="../assets/js/components/zoom-img.js"></script>
+    <script
+      src="../assets/js/components/product-detail.js"
+      type="module"
+    ></script>
+    <script src="../assets/js/components/product-sticky-nav.js"></script>
+    <script
+      src="../assets/js/components/technology-carousel.js"
+      type="module"
+    ></script>
+    <script src="../assets/js/components/product-specification.js"></script>
+    <script src="../assets/js/components/footer.js"></script>
+  </body>
+</html>

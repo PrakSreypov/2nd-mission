@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <!-- yonex logo -->
+  <link rel="icon" href="../assets/images/icon/yonex.png" type="image/icon type" >
+  <!-- google icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <!-- tailwind css cdn link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- css link -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+</head>
+
+<body class="bg-[#F7F8F9]">
+
+  <!-- Start Navbar -->
+  <my-navbar bg-color="md:bg-white  text-black"></my-navbar>
+  <!-- End Navbar -->
+
+  <!-- Start SideBar -->
+  <my-sidebar></my-sidebar>
+  <!-- End Sidebar -->
+
+  <!--start search input form -->
+  <main class="w-full z-50 box-border mx-auto max-w-[1280px] grow" class="block">
+      <div class="relative m-[25px] mb-[10px] bg-transparent font-[Oswald] mt-[130px]">
+        <form action="https://www.yonex.com/news/search" class="relative w-[calc(100%-160px)] mx-auto max-md:w-full"
+          method="get" role="search">
+          <input type="text"
+            class="border-[0.1px] border-[#878787] input-text relative h-[50px] !w-full text-[16px] p-2 text-[#878787]"
+            placeholder="Search News..." name="search" role="combobox" aria-required="true" minlength="3" maxlength="128">
+          <span class="material-symbols-outlined font-normal absolute top-3 right-3 max-sm:hidden text-[#878787]">
+            search
+          </span>
+        </form>
+      </div>
+      <!-- end search input form  -->
+
+      <!-- start menu tab -->
+      <news-tab-menu></news-tab-menu>
+      <!-- end menu tab -->
+
+      <!-- top block content -->
+      <latest-news data-source="all-latest-news"></latest-news>
+      <!-- end top block content -->
+
+      <!-- start latest stories -->
+      <!--start h3 latest stories -->
+      <div class="latest-posts max-md:block mx-[16px] bg-[#f7f8f9] md:mr-[16px]">
+          <div class="latest-posts__title md:text-[16px] md:w-full">
+            <h2
+              class="latest-posts__title__text mt-[90px] mb-[40px] text-[24px] font-[400] tracking-[4.7px] uppercase text-[#4f4a47] leading-[1.1] font-[Oswald]">
+              Latest Stories</h2>
+          </div>
+          <!-- <div class="latest-posts__item md:mb-[80px] md:max-w-[360px] md:w-[32%] flex items-center pb-[25px]"> -->
+          <latest-news-sm-card data-source="card-data"></latest-news-sm-card>
+      </div>
+      <!-- end latest stories -->
+
+      <!-- start badminton section-->
+      <div
+        class="latest-posts mx-[16px] bg-[#f7f8f9] md:flex-wrap md:mr-[16px] md:clear-left ">
+          <div class="latest-posts__title md:text-[16px] md:w-full flex justify-between mt-[20px] mb-[40px]">
+            <h2
+              class="latest-posts__title__text text-[24px] font-[400] tracking-[4.7px] uppercase text-[#4f4a47] leading-[1.1] font-[Oswald]">
+              Badminton</h2>
+            <a href="https://www.yonex.com/news/badminton/yonex-all-england-2024-team-yonex-collecting-titles-and-trophies/"
+              class="latest-posts__item__link "
+              aria-label="YONEX All England 2024:  Team Yonex Collecting titles and trophies">
+              <span class="latest-posts__item__link__text text-[#006cb7] text-[16px] font-[700] tracking-[.3px]">See All
+                Badminton Stories ></span>
+          </div>
+          <!--end h3 latest stories -->
+          <!-- start content 1-->
+          <latest-news-sm-card data-source="card-data2"></latest-news-sm-card>
+      </div>
+      <!-- end badminton section -->
+
+      <!-- start tennis section -->
+      <div
+          class="latest-posts mx-[16px] bg-[#f7f8f9] md:flex-wrap md:mr-[16px] md:clear-left ">
+          <div class="latest-posts__title md:text-[16px] md:w-full flex justify-between mt-[20px] mb-[40px]">
+            <h2
+              class="latest-posts__title__text text-[24px] font-[400] tracking-[4.7px] uppercase text-[#4f4a47] leading-[1.1] font-[Oswald]">
+              Tennis</h2>
+            <a href="https://www.yonex.com/news/badminton/yonex-all-england-2024-team-yonex-collecting-titles-and-trophies/"
+              class="latest-posts__item__link "
+              aria-label="YONEX All England 2024:  Team Yonex Collecting titles and trophies">
+              <span class="latest-posts__item__link__text text-[#006cb7] text-[16px] font-[700] tracking-[.3px]">See All
+                Badminton Stories ></span>
+          </div>
+          <!--end h3 latest stories -->
+          <!-- start content 1-->
+          <latest-news-sm-card data-source="card-data3"></latest-news-sm-card>
+      </div>
+      <!-- end tennis section -->
+
+      <!-- start golf section -->
+      <div
+          class="latest-posts mx-[16px] bg-[#f7f8f9] md:flex-wrap md:mr-[16px] md:clear-left ">
+          <div class="latest-posts__title md:text-[16px] md:w-full flex justify-between mt-[20px] mb-[40px]">
+            <h2
+              class="latest-posts__title__text text-[24px] font-[400] tracking-[4.7px] uppercase text-[#4f4a47] leading-[1.1] font-[Oswald]">
+              Golf</h2>
+            <a href="https://www.yonex.com/news/badminton/yonex-all-england-2024-team-yonex-collecting-titles-and-trophies/"
+              class="latest-posts__item__link "
+              aria-label="YONEX All England 2024:  Team Yonex Collecting titles and trophies">
+              <span class="latest-posts__item__link__text text-[#006cb7] text-[16px] font-[700] tracking-[.3px]">See All
+                Badminton Stories ></span>
+          </div>
+          <!--end h3 latest stories -->
+          <latest-news-sm-card data-source="card-data4"></latest-news-sm-card>
+      </div>
+
+      <!-- end golf section -->
+
+      <!-- start general section -->
+      <div
+          class="latest-posts mx-[16px] bg-[#f7f8f9] md:flex-wrap md:mr-[16px] md:clear-left ">
+          <div class="latest-posts__title md:text-[16px] md:w-full flex justify-between mt-[20px] mb-[40px]">
+            <h2
+              class="latest-posts__title__text text-[24px] font-[400] tracking-[4.7px] uppercase text-[#4f4a47] leading-[1.1] font-[Oswald]">
+              General</h2>
+            <a href="https://www.yonex.com/news/badminton/yonex-all-england-2024-team-yonex-collecting-titles-and-trophies/"
+              class="latest-posts__item__link"
+              aria-label="YONEX All England 2024:  Team Yonex Collecting titles and trophies">
+              <span class="latest-posts__item__link__text text-[#006cb7] text-[16px] font-[700] tracking-[.3px]">See All
+                Badminton Stories ></span>
+          </div>
+          <!--end h3 latest stories -->
+          <!-- start content 1-->
+          <latest-news-sm-card data-source="card-data5"></latest-news-sm-card>
+      </div>
+    <!-- end general section -->
+  </main>
+
+  <!-- Start Footer -->
+  <my-footer></my-footer>
+  <!-- End Footer -->
+  <script src="../assets/js/components/footer.js"></script>
+  <script src="../assets/js/components/bignav-component.js"></script>
+  <script src="../assets/js/components/nav-component.js" type="module"></script>
+  <script src="../assets/js/components/side-bar-component.js"></script>
+  <script src="../assets/js/news.js"></script>
+  <script src="../assets/js/index.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/components/news-tab-menu.js"></script>
+  <script src="../assets/js/components/latest-news.js" type="module"></script>
+  <script type="module" src="../assets/js/components/latest-news-sm-card.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our History</title>
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- yonex logo -->
+    <link
+      rel="icon"
+      href="../assets/images/icon/yonex.png"
+      type="image/icon type"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+    />
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="font-Oswald h-[300vh]">
+    <!-- Start Navbar -->
+    <my-navbar bg-color="md:bg-white  text-black"></my-navbar>
+    <!-- End Navbar -->
+
+    <!-- Start SideBar -->
+    <my-sidebar></my-sidebar>
+    <!-- End Sidebar -->
+
+    <!-- Start Home/About section-->
+    <section>
+      <div class="hidden md:block font-[oswald] mt-[110px]">
+        <div
+          class="max-w-[680px] md:max-w-[1260px] mx-auto flex gap-[16px] md:py-[40px] px-[16px] text-[13px]"
+        >
+          <a class="text-blue-900 hover:underline" href="../public/index.html"
+            >Home</a
+          >
+          <p>/</p>
+          <a href="../public/our-history.html">OUR HISTORY</a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="max-w-[1260px] mx-auto flex justify-center pt-[60px] py-[40px] text-[24px] md:text-[36px] font-[oswald]"
+        >
+          <h1>OUR HISTORY</h1>
+        </div>
+      </div>
+      <div>
+        <div
+          class="max-w-[680px] md:max-w-[1260px] mx-auto flex justify-center items-center py-[40px] px-[30px] text-[14px] text-center md:text-[20px] font-[oswald]"
+        >
+          <a
+            class="border-b-2 border-gray-500 pb-4 px-[70px] text-center md:px-[80px] hover:underline"
+            href="../public/about-us.html"
+            >ABOUT US</a
+          >
+          <a
+            href="../public/our-history.html"
+            class="border-b-2 border-blue-600 pb-4 text-gray-500 px-[70px] md:px-[90px] hover:underline"
+            >OUR HISTORY</a
+          >
+        </div>
+      </div>
+      <!-- End Home/About section-->
+    </section>
+
+    <main class="flex">
+      <!-- this is a 1 blog content -->
+      <div class="md:flex max-w-[1260px] py-[10px] mx-auto">
+        <div
+          class="max-w-[360px] sm:max-w-full mx-auto md:pr-[15%] sticky top-0 left-0 z-[50] md:bg-inherit bg-white overflow-x-auto md:h-screen"
+        >
+          <ul
+            class="nav__links z-[1000] px-[10px] py-[10px] flex md:flex-col gap-[30px] text-[20px] text-gray-600 font-[oswald]"
+          >
+            <li class="nav__item hover:text-black">
+              <a class="nav__link" href="#section--1">1940</a>
+            </li>
+            <li class="nav__item hover:text-black">
+              <a class="nav__link" href="#section--2">1950</a>
+            </li>
+            <li class="nav__item hover:text-black">
+              <a class="nav__link" href="#section--3">1960</a>
+            </li>
+            <li class="nav__item hover:text-black">
+              <a
+                class="nav__link nav__link--btn btn--show-modal"
+                href="#section--4"
+                >1970</a
+              >
+            </li>
+            <li class="nav__item hover:text-black">
+              <a class="nav__link" href="#section--5">1980</a>
+            </li>
+            <li class="nav__item hover:text-black">
+              <a class="nav__link" href="#section--6">1990</a>
+            </li>
+            <li class="nav__item hover:text-black">
+              <a class="nav__link" href="#section--7">2000</a>
+            </li>
+            <li class="nav__item hover:text-black">
+              <a
+                class="nav__link nav__link--btn btn--show-modal"
+                href="#section--8"
+                >2010</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="max-w-[1200px] mx-auto">
+          <!-- the component of the contents -->
+          <card-info-component data-source="card-data"></card-info-component>
+        </div>
+      </div>
+    </main>
+
+    <!-- Start footer -->
+    <my-footer></my-footer>
+
+    <script type="module" src="../assets/js/components/our-history-info-card.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+  <script src="../assets/js/components/footer.js"></script>
+  <script src="../assets/js/components/bignav-component.js"></script>
+  <script src="../assets/js/components/nav-component.js" type="module"></script>
+  <script src="../assets/js/components/side-bar-component.js"></script>
+  <script src="../assets/js/index.js"></script>
+
+</html>
