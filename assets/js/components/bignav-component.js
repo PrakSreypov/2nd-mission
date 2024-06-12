@@ -33,7 +33,7 @@ class Navbar extends HTMLElement {
           </div>
           <!-- Logo -->
           <div>
-            <a href="/tech-a-project/2nd-mission/index.html">
+            <a href="/2nd-mission/index.html">
               <img
               src="https://www.yonex.com/static/version1712695184/frontend/Yonex/base/en_US/images/Yonex_Logo.svg"
               alt=""
@@ -51,7 +51,7 @@ class Navbar extends HTMLElement {
           >
             <!-- Badminton Hoverdrop -->
             <div  class="group h-full pt-[30px] px-5 max-[940px]:px-2"  id="hoverLink"  onmouseenter="hoverDrop(1)"  onmouseleave="hoverHide(-1)">
-              <a href="/tech-a-project/2nd-mission/public/product-review-badminton.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">BADMINTON</a>
+              <a href="/2nd-mission/public/product-review-badminton.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">BADMINTON</a>
               <!-- Badminton section -->
               <section class="w-full bg-white absolute top-[100px] max-h-[0px] overflow-hidden duration-500 ease-in-out z-[10000] left-0" id="badminton" >
                 <div id="" class="max-w-[95%] mx-auto p-[40px]">
@@ -63,7 +63,7 @@ class Navbar extends HTMLElement {
             </div>
         
             <div  class="group h-full pt-[30px] px-5 max-[940px]:px-2"  id="hoverLink"  onmouseenter="hoverDrop(2)"  onmouseleave="hoverHide(-2)">
-              <a href="/tech-a-project/2nd-mission/public/product-review-tennis.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">TENNIS</a>
+              <a href="/2nd-mission/public/product-review-tennis.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">TENNIS</a>
               <!-- Tennis section -->
               <section class="w-full bg-white absolute top-[100px] max-h-[0px] overflow-hidden duration-500 ease-in-out z-[10000] left-0" id="tennis" >
                 <div id="" class="max-w-[95%] mx-auto p-[40px]">
@@ -75,7 +75,7 @@ class Navbar extends HTMLElement {
             </div>
         
             <div  class="group h-full pt-[30px] px-5 max-[940px]:px-2"  id="hoverLink"  onmouseenter="hoverDrop(3)"  onmouseleave="hoverHide(-3)">
-              <a href="/tech-a-project/2nd-mission/public/product-review-golf.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">GOLF</a>
+              <a href="/2nd-mission/public/product-review-golf.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">GOLF</a>
               <!-- Golf section -->
               <section class="w-full bg-white absolute top-[100px] max-h-[0px] overflow-hidden duration-500 ease-in-out z-[10000] left-0" id="golf" >
                 <div id="" class="max-w-[95%] mx-auto p-[40px]">
@@ -87,7 +87,7 @@ class Navbar extends HTMLElement {
             </div>
             
             <div  class="group h-full pt-[30px] px-5 max-[940px]:px-2"  id="hoverLink"  onmouseenter="hoverDrop(4)"  onmouseleave="hoverHide(-4)">
-              <a href="/tech-a-project/2nd-mission/public/product-review-all-running.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">RUNNING</a>
+              <a href="/2nd-mission/public/product-review-all-running.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">RUNNING</a>
               <!-- Running section -->
               <section class="w-full bg-white absolute top-[100px] max-h-[0px] overflow-hidden duration-500 ease-in-out z-[10000] left-0" id="running" >
                 <div id="" class="max-w-[95%] mx-auto p-[40px]">
@@ -99,7 +99,7 @@ class Navbar extends HTMLElement {
             </div>
         
             <div  class="group h-full pt-[30px] px-5 max-[940px]:px-2"  id="hoverLink"  onmouseenter="hoverDrop(5)"  onmouseleave="hoverHide(-5)">
-              <a href="/tech-a-project/2nd-mission/public/product-review-snowboarding.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">SNOWBOARDING</a>
+              <a href="/2nd-mission/public/product-review-snowboarding.html" class="group-hover:opacity-50 text-[13px] tracking-[1px] font-[500] relative top-[7%]">SNOWBOARDING</a>
               <!-- Snowboarding section -->
               <section class="w-full bg-white absolute top-[100px] max-h-[0px] overflow-hidden duration-500 ease-in-out z-[10000] left-0" id="snowboard" >
                 <div id="" class="max-w-[95%] mx-auto p-[40px] pb-[20px]">
@@ -107,7 +107,7 @@ class Navbar extends HTMLElement {
                     <card-slide data-source="snowboarding-obj" grid-style="grid-cols-4 gap-4"></card-slide>
                     <div class="flex max-w-[1200px] mx-auto">
                         <div class="flex flex-col items-center justify-center w-[213px]">
-                            <a id="hoverLink" href="/tech-a-project/2nd-mission/public/athletes-snowboarding.html" class="bg-[#F7F8FA]"><img src="/tech-a-project/2nd-mission/assets/images/snowboard-images/skate-athlete.webp" alt=""></a>
+                            <a id="hoverLink" href="/2nd-mission/public/athletes-snowboarding.html" class="bg-[#F7F8FA]"><img src="/2nd-mission/assets/images/snowboard-images/skate-athlete.webp" alt=""></a>
                             <p class="text-[16px] text-black tracking-[1.5px] pt-2">TEAM</p>
                         </div>
                     </div>
@@ -133,12 +133,12 @@ class Navbar extends HTMLElement {
             </div>
           </div>
           <button onclick="opensearchresponse()" class="inline-block cursor-pointer md:hidden mr-3">
-            <img src="/tech-a-project/2nd-mission/assets/images/icons/search-interface-symbol (1).png" alt="" class="size-4"/>
+            <img src="/2nd-mission/assets/images/icons/search-interface-symbol (1).png" alt="" class="size-4"/>
           </button>
           <div class="bg-white items-center gap-2 justify-between shadow-md absolute top-0 -left-[2px] w-full py-[15px] hidden" id="search-bar2">
             <input type="text" placeholder="Search" class="w-full pl-3 h-full">
             <button onclick="closesearchresponse()" class="size-[30px]">
-              <img src="/tech-a-project/2nd-mission/assets/images/icons/close.svg" alt="" class="bg-[#6E7677] rounded-[50%] size-[16px]"/>
+              <img src="/2nd-mission/assets/images/icons/close.svg" alt="" class="bg-[#6E7677] rounded-[50%] size-[16px]"/>
             </button>
           </div>
           <div class="w-[120px] fill-slate-100 items-center gap-3 md:flex hidden relative">
@@ -159,13 +159,13 @@ class Navbar extends HTMLElement {
                 </button>
                 <input type="text" placeholder="Search" class="pr-20">
                 <button onclick="closesearch()" class="size-[30px]">
-                  <img src="/tech-a-project/2nd-mission/assets/images/icons/close.svg" alt="" class="bg-[#6E7677] rounded-[50%] size-[16px]"/>
+                  <img src="/2nd-mission/assets/images/icons/close.svg" alt="" class="bg-[#6E7677] rounded-[50%] size-[16px]"/>
                 </button>
               </div>
             </div>
                
             <img
-              src="/tech-a-project/2nd-mission/assets/images/icons/accessibility_icon.svg"
+              src="/2nd-mission/assets/images/icons/accessibility_icon.svg"
               alt=""
               class="max-w-[50px] cursor-pointer mb-[7.5px] flex-shrink"
             />

@@ -1,149 +1,149 @@
 // Badminton object
 export const BadmintonObj = [
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/racquets_240306.png",
+        img: "/2nd-mission/assets/images/badminton-images/racquets_240306.png",
         title: "RAQUEST",
-        link: "/tech-a-project/2nd-mission/public/product-review-badminton.html",
+        link: "/2nd-mission/public/product-review-badminton.html",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/strings_240306.webp",
+        img: "/2nd-mission/assets/images/badminton-images/strings_240306.webp",
         title: "STRINGS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/shuttlecocks_img.webp",
+        img: "/2nd-mission/assets/images/badminton-images/shuttlecocks_img.webp",
         title: "SHUTTLECOCKS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/10566_011_520x320.webp",
+        img: "/2nd-mission/assets/images/badminton-images/10566_011_520x320.webp",
         title: "APPAREL",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/shoes_240306.webp",
+        img: "/2nd-mission/assets/images/badminton-images/shoes_240306.webp",
         title: "SHOES",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/bag.webp",
+        img: "/2nd-mission/assets/images/badminton-images/bag.webp",
         title: "BAGS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/accessories_img2.webp",
+        img: "/2nd-mission/assets/images/badminton-images/accessories_img2.webp",
         title: "ACCESSORIES",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/badminton-images/athletes_240306.webp",
+        img: "/2nd-mission/assets/images/badminton-images/athletes_240306.webp",
         title: "ATHLETES",
-        link: "/tech-a-project/2nd-mission/public/athletes-badminton.html",
+        link: "/2nd-mission/public/athletes-badminton.html",
     },
 ];
 // golfobj
 export const GolfObj = [
     {
-        img: "/tech-a-project/2nd-mission/assets/images/golf-images/thm_club_ezone.webp",
+        img: "/2nd-mission/assets/images/golf-images/thm_club_ezone.webp",
         title: "CLUBS",
         link: "../public/product-review-golf.html",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/golf-images/Mega-Menu-Golf-Shaft_1.webp",
+        img: "/2nd-mission/assets/images/golf-images/Mega-Menu-Golf-Shaft_1.webp",
         title: "SHAFTS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/golf-images/Mega-Golf-Bag.webp",
+        img: "/2nd-mission/assets/images/golf-images/Mega-Golf-Bag.webp",
         title: "GEAR",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/golf-images/golf-athletes.webp",
+        img: "/2nd-mission/assets/images/golf-images/golf-athletes.webp",
         title: "ATHLETES",
-        link: "/tech-a-project/2nd-mission/public/athletes-golf.html",
+        link: "/2nd-mission/public/athletes-golf.html",
     },
 ];
 // tennisobj
 export const TennisObj = [
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/raquet-tennis.webp",
+        img: "/2nd-mission/assets/images/tennis-images/raquet-tennis.webp",
         title: "RAQUEST",
-        link: "/tech-a-project/2nd-mission/public/product-review-tennis.html",
+        link: "/2nd-mission/public/product-review-tennis.html",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/strings-tennis.webp",
+        img: "/2nd-mission/assets/images/tennis-images/strings-tennis.webp",
         title: "SHAFTS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/tennis-ball.webp",
+        img: "/2nd-mission/assets/images/tennis-images/tennis-ball.webp",
         title: "BALLS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/apparel-tennis.webp",
+        img: "/2nd-mission/assets/images/tennis-images/apparel-tennis.webp",
         title: "APPAREL",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/shoes-tennis.webp",
+        img: "/2nd-mission/assets/images/tennis-images/shoes-tennis.webp",
         title: "SHOES",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/tennis_Bag_.webp",
+        img: "/2nd-mission/assets/images/tennis-images/tennis_Bag_.webp",
         title: "BAGS",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/accessories-tennis.webp",
+        img: "/2nd-mission/assets/images/tennis-images/accessories-tennis.webp",
         title: "ACCESSORIES",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/tennis-images/tennis-athlete.webp",
+        img: "/2nd-mission/assets/images/tennis-images/tennis-athlete.webp",
         title: "ATHLETES",
-        link: "/tech-a-project/2nd-mission/public/athletes-tennis.html",
+        link: "/2nd-mission/public/athletes-tennis.html",
     },
 ];
 // runningobj
 export const RunningObj = [
     {
-        img: "/tech-a-project/2nd-mission/assets/images/running-images/shoe-orange.webp",
+        img: "/2nd-mission/assets/images/running-images/shoe-orange.webp",
         title: "MEN",
-        link: "/tech-a-project/2nd-mission/public/product-review-men.html",
+        link: "/2nd-mission/public/product-review-men.html",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/running-images/shoe-white.webp",
+        img: "/2nd-mission/assets/images/running-images/shoe-white.webp",
         title: "WOMEN",
-        link: "/tech-a-project/2nd-mission/public/product-review-women.html",
+        link: "/2nd-mission/public/product-review-women.html",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/running-images/shoe-brown.webp",
+        img: "/2nd-mission/assets/images/running-images/shoe-brown.webp",
         title: "UNISEX",
-        link: "/tech-a-project/2nd-mission/public/product-review-unisex.html",
+        link: "/2nd-mission/public/product-review-unisex.html",
     },
 ];
 // snowboardobj
 export const SnowboardObj = [
     {
-        img: "/tech-a-project/2nd-mission/assets/images/snowboard-images/skate.webp",
+        img: "/2nd-mission/assets/images/snowboard-images/skate.webp",
         title: "BOARD",
-        link: "/tech-a-project/2nd-mission/public/product-review-snowboarding.html",
+        link: "/2nd-mission/public/product-review-snowboarding.html",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/snowboard-images/skate-shoe.webp",
+        img: "/2nd-mission/assets/images/snowboard-images/skate-shoe.webp",
         title: "BOOT & BINDING",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/snowboard-images/skate-coat.webp",
+        img: "/2nd-mission/assets/images/snowboard-images/skate-coat.webp",
         title: "APPAREL",
         link: "#",
     },
     {
-        img: "/tech-a-project/2nd-mission/assets/images/snowboard-images/skate-glove.webp",
+        img: "/2nd-mission/assets/images/snowboard-images/skate-glove.webp",
         title: "ACCESSORIES",
         link: "#",
     },
@@ -152,15 +152,15 @@ export const SnowboardObj = [
 export const AboutObj = [
     {
         title: "ABOUT US",
-        link: "/tech-a-project/2nd-mission/public/about-us.html",
+        link: "/2nd-mission/public/about-us.html",
     },
     {
         title: "YONEX GROUP",
-        link: "/tech-a-project/2nd-mission/public/yonex-group.html",
+        link: "/2nd-mission/public/yonex-group.html",
     },
     {
         title: "YONEX DISTRIBUTOR",
-        link: "/tech-a-project/2nd-mission/public/yonex-distributors.html",
+        link: "/2nd-mission/public/yonex-distributors.html",
     },
     {
         title: "INVESTOR RELATION",
